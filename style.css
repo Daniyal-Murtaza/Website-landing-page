@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 80vw;
+    
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+
+.navbar li:hover{
+    color: green;
+    border-bottom: solid;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0px 12px;
+}
+
