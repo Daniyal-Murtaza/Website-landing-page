@@ -1,52 +1,33 @@
-.min-h-screen{
-    min-height: 100vh;
-}
 
-.bg-red{
-    background-color: red;
-}
-
-.mx-auto{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.flex{
+.myflex{
     display: flex;
+    height: 100vh;
+    background-color: rgb(252, 178, 39);
 }
 
-.items-center{
+.left-div{
+    border: solid black 0px;
+    width: 50vw;
+}
+
+.right-div{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width: 50vw;
 }
 
-.justify-center{
+.form-div{
+    display: flex;
     justify-content: center;
 }
 
-.justify-between{
-    justify-content: space-between;
+.image1{
+    width: 50vw;
+    height: 100vh;
 }
 
-.font-bold{
-    font-weight: 550;
-    font-size: 10vh;
-}
 
-.font-size{
-    font-size:larger;
-}
 
-.border-bottom{
-    border-bottom: solid lightgray 1px;
-}
-
-.heading{
-    margin-top: 5vh;
-    font-size: 10vh;
-    font-weight: 550;
-}
-
-.color-green{
-    color: green;
-}
 
